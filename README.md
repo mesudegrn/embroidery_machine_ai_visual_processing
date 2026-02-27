@@ -22,14 +22,10 @@ This application is the interactive front-end of the **Kizilay Embroidery Effici
 
 1. **Input:** The user enters the fabric count, worker count, machine speed, and embroidery type.
 2. **ML Inference:** The app loads `model_ascii.pkl` and constructs a feature vector using the `build_feature_row` function.
-3. **Benchmarking:** The system runs a second hidden inference using **Optimal Parameters** ($Fabric=7, Worker=1, Speed=3$).
-4. **Actionable Insights:** It provides a visual alert (Success/Warning/Info) showing how much efficiency ($~X\%$) is being lost and what specific changes are needed to reclaim it.
+3. **Actionable Insights:** It provides a visual alert (Success/Warning/Info) showing how much efficiency ($~X\%$) is being lost and what specific changes are needed to reclaim it.
 
 ## 🚀 Installation & Usage
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/yourusername/kizilay-ai-predictor.git](https://github.com/yourusername/kizilay-ai-predictor.git)
 Install dependencies:Bashpip install streamlit pandas numpy joblib
 Place the Model: Ensure model_ascii.pkl and kizilay_logo.png are in the root directory.Launch the App:Bashstreamlit run app.py
 Parameter,Range/Options,Description
